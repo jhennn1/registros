@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>INSCRIPCION A CURSO</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+  </head>
+  <body>
+    <h1>Inscripción a Curso</h1>
+    <form method="POST" action="/inscripcion_curso">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required /><br /><br />
+      <label for="apellidos">Apellidos:</label>
+      <input type="text" id="apellidos" name="apellidos" required /><br /><br />
+      <label for="curso">Curso:</label>
+      <select id="curso" name="curso">
+        <option value="curso1">Curso 1</option>
+        <option value="curso2">Curso 2</option>
+        <option value="curso3">Curso 3</option>
+      </select><br /><br />
+      <button type="submit"><h4>Enviar</h4> </button>
+    
+    </form>
+  </body>
+</html>

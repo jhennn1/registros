@@ -1,0 +1,38 @@
+/* Estilos básicos para los formularios */
+body {
+    font-family: sans-serif;
+    background-color: #d0ace7;
+    text-align: center;
+    
+  }
+  h1 {
+    text-align: center;
+  }
+  
+  form {
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="number"],
+  textarea,
+  select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  button[type="submit"] {
+    background-color: #5d55aa;
+    color: white;
+    padding: 10;
+  }
